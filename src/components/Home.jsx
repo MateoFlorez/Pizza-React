@@ -1,5 +1,9 @@
 function Home(){
-    return <h1>HOME</h1>
+    return (
+        <section className="bg-gray-800 min-h-screen text-white">
+            <h1>Home</h1>
+        </section>
+    )
 }
 
 export default Home
